@@ -16,11 +16,11 @@ plugins {
 android {
     val abis = arrayOf("armeabi-v7a", "arm64-v8a", "x86_64")
 
-    namespace = "com.maxrave.simpmusic"
+    namespace = "com.glitch.music"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.maxrave.simpmusic"
+        applicationId = "com.glitch.music"
         minSdk = 26
         targetSdk = 36
         versionCode =
